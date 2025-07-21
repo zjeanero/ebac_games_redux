@@ -7,6 +7,7 @@ import { adicionar } from '../../store/reducers/carrinho'
 
 type Props = {
   game: Game
+  aoComprar: (jogo: Game) => void
 }
 
 export const paraReal = (valor: number) =>
